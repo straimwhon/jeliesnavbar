@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation Drawer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="drawer" class="drawer">
+        <div class="drawer-header">
+            <button class="close-btn" onclick="toggleDrawer()">×</button>
+            <div class="profile-section">
+                <img src="assets/profile.jpg" alt="Profile Picture" class="profile-img">
+                <span class="profile-name">Jelie S.</span>
+                <div class="email">jelies@gmail.com &#x25BC;</div>
+            </div>
+        </div>
+        <ul class="drawer-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div id="main" class="main-content">
+        <button class="open-btn" onclick="toggleDrawer()">☰</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
